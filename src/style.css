@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Shafarik&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shafarik&display=swap');
 @import 'tailwindcss';
 
 @theme {
   --font-display: 'Shafarik', serif;
-  --font-sans: 'Zain', serif;
 }
 
 html,
@@ -22,9 +21,9 @@ body,
 
 pre,
 p {
-  @apply font-sans text-2xl;
+  @apply font-sans text-lg;
 }
 
 p {
-  text-indent: 2rem;
+  @apply mb-1 leading-relaxed indent-6 text-justify;
 }

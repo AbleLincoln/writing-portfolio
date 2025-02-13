@@ -26,7 +26,7 @@ const LINKS = {
     </header>
 
     <section class="grid sm:grid-cols-2 gap-4 gap-y-8">
-      <ul class="flex flex-col text-2xl">
+      <ul class="flex flex-col text-lg">
         <li>
           poems
           <ul class="ml-8">
