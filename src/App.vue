@@ -20,9 +20,11 @@ const LINKS = {
   <main
     class="bg-emerald-900 text-white max-w-7xl m-auto pb-6 px-8 h-screen overflow-y-scroll"
   >
-    <header class="sticky top-0 bg-emerald-900 pt-6">
+    <header
+      class="sticky top-0 bg-emerald-900 pt-6 border-b border-white/50 pb-4 mb-6 sm:flex justify-between items-end"
+    >
       <h1 class="text-5xl font-display">Andrew Maney</h1>
-      <hr class="my-5 opacity-50" />
+      <h2>maneyandrew [at] gmail [dot] com</h2>
     </header>
 
     <section class="grid sm:grid-cols-2 gap-4 gap-y-8">
